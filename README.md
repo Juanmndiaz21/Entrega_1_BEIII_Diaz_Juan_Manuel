@@ -101,13 +101,15 @@ Luego de ejecutar el `POST /api/mocks/generateData`, se puede verificar que los 
 ## Capturas de Pruebas (Evidencias de Funcionamiento)
 
 ### 1. GET /api/mocks/mockingpets
-![Prueba Mocking Pets](<img width="752" height="789" alt="1 " src="https://github.com/user-attachments/assets/38b4ade8-ac26-49c6-ab65-6f03c21e0793" />)
+<img width="752" height="789" alt="1 " src="https://github.com/user-attachments/assets/b53b925a-84a0-4b9d-a81f-565872bcd803" />
+
 
 ### 2. GET /api/mocks/mockingusers (50 usuarios generados)
-![Prueba Mocking Users](docs/capturas/2-mockingusers.png)
+<img width="749" height="792" alt="2" src="https://github.com/user-attachments/assets/1e835614-48cb-4be3-b91f-e8c56298e956" />
 
 ### 3. POST /api/mocks/generateData (Insercion en MongoDB)
-![Prueba Generate Data](docs/capturas/3-generatedata.png)
+<img width="742" height="795" alt="3" src="https://github.com/user-attachments/assets/aac9affc-42b7-4dcf-9fa2-a6fafd2f0a1f" />
 
 ### 4. Comprobacion de registros insertados en MongoDB (GET /api/users y /api/pets)
-![Prueba Comprobacion BD](docs/capturas/4-check-users-pets.png)
+<img width="746" height="792" alt="4" src="https://github.com/user-attachments/assets/55bb81ac-e10a-4344-b257-2c9d0c6d0937" />
+<img width="745" height="787" alt="5" src="https://github.com/user-attachments/assets/cf1fe361-8499-41a6-8fba-6aec9faa6bd5" />
