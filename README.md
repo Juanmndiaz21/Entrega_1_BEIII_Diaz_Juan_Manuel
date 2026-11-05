@@ -1,6 +1,7 @@
 # Entrega N°1 - Desafio de Mocking (Backend III)
 
 Proyecto desarrollado sobre la base de Adoptme para la primera pre-entrega del curso de Backend III en Coderhouse.
+Alumno: Diaz Juan Manuel
 
 ---
 
@@ -95,6 +96,18 @@ Luego de ejecutar el `POST /api/mocks/generateData`, se puede verificar que los 
    curl -X GET http://localhost:8080/api/pets
    ```
 
-# Entrega_1_BEIII_Diaz_Juan_Manuel
-# Entrega_1_BEIII_Diaz_Juan_Manuel
-# Entrega_1_BEIII_Diaz_Juan_Manuel
+---
+
+## Capturas de Pruebas (Evidencias de Funcionamiento)
+
+### 1. GET /api/mocks/mockingpets
+![Prueba Mocking Pets](<img width="752" height="789" alt="1 " src="https://github.com/user-attachments/assets/38b4ade8-ac26-49c6-ab65-6f03c21e0793" />)
+
+### 2. GET /api/mocks/mockingusers (50 usuarios generados)
+![Prueba Mocking Users](docs/capturas/2-mockingusers.png)
+
+### 3. POST /api/mocks/generateData (Insercion en MongoDB)
+![Prueba Generate Data](docs/capturas/3-generatedata.png)
+
+### 4. Comprobacion de registros insertados en MongoDB (GET /api/users y /api/pets)
+![Prueba Comprobacion BD](docs/capturas/4-check-users-pets.png)
